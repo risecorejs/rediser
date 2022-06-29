@@ -1,0 +1,25 @@
+{
+  "name": "@risecorejs/rediser",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risecorejs/rediser.git"
+  },
+  "author": "Amenov Abdulsalam <amenov.abdulsalam@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/risecorejs/rediser/issues"
+  },
+  "homepage": "https://github.com/risecorejs/rediser#readme",
+  "dependencies": {
+    "@risecorejs/core": "^2.8.7",
+    "@risecorejs/helpers": "^2.1.0",
+    "redis": "^4.1.0"
+  },
+  "devDependencies": {}
+}

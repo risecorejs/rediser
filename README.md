@@ -1,1 +1,1 @@
-# rediser
+# Risecorejs/Rediser
