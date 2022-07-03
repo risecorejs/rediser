@@ -3,8 +3,8 @@ const models = require('@risecorejs/core/models')
 
 /**
  * REDISER
- * @param options {Object?}
- * @returns {(function(*, *, *): Promise<any>)|*}
+ * @param options
+ * @returns {Promise<(function(*, *, *): Promise<any>)|*>}
  */
 module.exports = async (options) => {
   const redisClient = options?.redisClient || (await getRedisClient((redisOptions = options)))
