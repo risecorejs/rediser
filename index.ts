@@ -17,7 +17,7 @@ export default async function (options?: IOptions & redis.RedisClientOptions): P
   return async function (
     redisKey: string,
     model: string | IModel,
-    options?: IOptions & { defaultValue?: () => any | Promise<any> }
+    options?: IOptions & { defaultValue?: () => any }
   ): Promise<any> {
     const modelOptions = getModelOptions(model)
 
