@@ -14,7 +14,11 @@ import { TModelOptions, TRediserHandler } from './types'
 export default async function (options?: IOptions & redis.RedisClientOptions): Promise<TRediserHandler> {
   const redisClient = options?.redisClient || (await getRedisClient(options))
 
-  return async function (redisKey: string, model: string | IModel, options?: IOptions): Promise<any> {
+  return async function (
+    redisKey: string,
+    model: string | IModel,
+    options?: IOptions & { defaultValue?: () => any | Promise<any> }
+  ): Promise<any> {
     const modelOptions = getModelOptions(model)
 
     const _redisClient = options?.redisClient || redisClient
