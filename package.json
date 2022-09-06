@@ -2,10 +2,8 @@
   "name": "@risecorejs/rediser",
   "description": "",
   "version": "1.0.2",
-  "main": "index",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/risecorejs/rediser.git"
@@ -18,8 +16,12 @@
   "homepage": "https://github.com/risecorejs/rediser#readme",
   "dependencies": {
     "@risecorejs/core": "^2.8.7",
-    "@risecorejs/helpers": "^2.1.1",
-    "redis": "^4.1.0"
+    "@risecorejs/helpers": "^3.0.6",
+    "redis": "^4.3.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^18.7.11",
+    "prettier": "^2.3.2",
+    "typescript": "^4.7.4"
+  }
 }
