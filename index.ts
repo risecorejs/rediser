@@ -1,10 +1,9 @@
-const models = require('@risecorejs/core/models')
-
+import models from '@risecorejs/core/models'
 import { getRedisClient } from '@risecorejs/helpers'
 import redis from 'redis'
 
 import { IModel, IOptions } from './interfaces'
-import { TModelOptions, TRediserHandler } from './types'
+import { TRediserHandler, TModelOptions } from './types'
 
 /**
  * REDISER

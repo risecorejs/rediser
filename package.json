@@ -15,8 +15,8 @@
   },
   "homepage": "https://github.com/risecorejs/rediser#readme",
   "dependencies": {
-    "@risecorejs/core": "^2.8.7",
-    "@risecorejs/helpers": "^3.0.6",
+    "@risecorejs/core": "^3.0.0",
+    "@risecorejs/helpers": "^3.0.7",
     "redis": "^4.3.0"
   },
   "devDependencies": {
